@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+	<title>Shopping List WebApp By Dave Imbriaco</title>
+	<link rel="stylesheet" href="main.css" >
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="app.js"></script>
+	<script src='webloader.js'></script>
+</head>
+<body>
+	<header> <!-- the header is just space and the text containing the title -->
+		<div class="title"><h1>Shopping Kart</h1></div>
+	</header>
+	<section class="main"> <!-- everything else is going in this parent section -->
+	<div class="labelBar"> <!-- this is the label bar -->
+		<ul>
+			<li id="labelDescription">Description</li>
+			<li id="labelQuantity">Quantity</li>
+			<li id="labelPrice">Price</li>
+			<li id="labelTotal">Total</li>
+		</ul>
+	</div>
+		<div class="list"> <!-- the list appears below the labelBar and contains listItems -->
+			<div class="itemInput"> <!-- inputs are here -->
+				<ul>
+					<li><input id="descption" type="text" placeholder="Enter Item Here"></li>
+					<li><input id="quantity" type="text" placeholder="Enter Quantity Here"></li>
+					<li>$<input id="price" type="text" placeholder="Enter Price Here (USD)"></li>
+					<li>Total:</li>
+				</ul>
+			</div>
+			<div class="listItem">
+				<div class="BoxEditremove">
+					<img src="edit">
+					<img src="remove">
+				</div>
+				<div class="itemInfo">
+					<ul class="ulItemlist">
+						<li class="description">12 Pack - Sam Adam's Boston Lager</li>
+						<li class="quantity">1</li>
+						<li class="price">$15.99</li>
+						<li class="total">$15.99</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="totals">
+			<ul>
+				<li>Subtotal</li>
+				<li>Tax</li>
+				<li>Total With Tax:</li>
+				<li>Unpriced Items</li>
+			</ul>
+		</div>
+	</section>
+</body>
+</html>

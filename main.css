@@ -1,0 +1,119 @@
+header {
+	width:100%;
+	height: 80px;
+}
+
+.title {
+	width: 600px;
+	height: 75px;
+	font-family: Courier;
+	font-size: larger;
+	margin: auto;
+}
+
+.title h1 {
+	width: 300px;
+	height: 40px;
+	font-weight: bolder;
+	margin: 0 auto;
+}
+
+.main {
+	width:100%;
+	height: 400px;
+}
+
+.labelBar {
+	width:80%;
+	height: 50px;
+	margin-left:auto;
+	margin-right: auto;
+	font-size: ;
+	font-family: Courier;
+	background: ;
+}
+
+#labelDescription, #labelQuantity, #labelPrice, #labelTotal {
+	display: inline;
+	vertical-align: middle;
+}
+
+#labelDescription {
+	margin: :;
+}
+
+#labelQuantity {
+	margin: :;
+}
+
+#labelPrice {
+	margin: :;
+}
+
+#labelTotal {
+	margin: :;
+}
+
+.itemInput {
+	height: 60px;
+	width: ;
+	border: 1px solid green;
+}
+
+#description {
+	width: 240px;
+	margin: ;
+}
+
+#quantity {
+	margin: ;
+}
+
+#price {
+	margin: ;
+}
+
+.itemInput li {
+	display: inline;
+}
+
+.list {
+	width: 90%;
+	height: auto;
+}
+
+.listItem {
+	width: xxpx;
+	border: 2px solid black;
+}
+
+.BoxEditremove {
+	float: left;
+	display: inline-block;
+}
+
+.BoxEditremove img {
+	display: inline;
+}
+
+.itemInfo  {
+	width: ;
+	height: ;
+}
+
+.ulItemlist li {
+	display: inline;
+}
+
+.description, .quantity, .price, .total {
+	font-size: ;
+	font-family: ;
+}
+
+.totals {
+	float: right;
+}
+
+.totals ul {
+	display: block;
+}
